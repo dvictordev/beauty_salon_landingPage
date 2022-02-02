@@ -5,6 +5,7 @@ import { Contact } from './views/Contact'
 import Logo from './assets/images/Logo.svg'
 
 import './assets/styles/header.css'
+import { Footer } from './views/Footer'
 
 export default function AppRoutes() {
   return (
@@ -31,9 +32,26 @@ export default function AppRoutes() {
       </header>
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+              <Footer />
+            </>
+          }
+        ></Route>
+
         <Route path="/Services" element={<Services />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route
+          path="/Contact"
+          element={
+            <>
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
       </Routes>
     </Router>
   )

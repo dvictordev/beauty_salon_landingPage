@@ -1,0 +1,15 @@
+footer {
+  background-color: #69b99d;
+  width: 100vw;
+  height: 12.81rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}

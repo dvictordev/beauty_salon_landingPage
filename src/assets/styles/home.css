@@ -1,0 +1,54 @@
+.container {
+  padding: 0 9rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+.main-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-text-description {
+  max-width: 24.75rem;
+  text-align: left;
+}
+
+.main-text-description h2 {
+  font-size: 2.25rem;
+  color: #0f241d;
+  line-height: 3.36rem;
+  padding-bottom: 0.75rem;
+}
+
+.main-text-description p {
+  font-size: 1.01rem;
+  color: #767676;
+  line-height: 1.46rem;
+  padding-bottom: 1.5rem;
+}
+
+.homeBtn {
+  background-color: #69b99d;
+  border: 0;
+  padding: 14px 32px;
+  width: 218px;
+  height: 50px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.01rem;
+}
+
+.main-Desc-Img {
+  max-width: 35.06rem;
+  max-height: 23.43rem;
+  background-color: #ccf4e6;
+}
+
+.backImg {
+  max-width: 35.06rem;
+  max-height: 23.43rem;
+  position: relative;
+  top: 4.11rem;
+  right: 6.06rem;
+}
