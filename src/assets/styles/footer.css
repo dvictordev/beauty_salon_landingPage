@@ -1,7 +1,13 @@
+.footer-container {
+  padding: 0 9rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
 footer {
   background-color: #69b99d;
   width: 100vw;
-  height: 12.81rem;
+  height: 8.5rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -9,7 +15,25 @@ footer {
 
 .footer-items {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   position: relative;
+  text-align: left;
+  line-height: 28px;
+  color: #f9f9f9;
+}
+
+.footer-desc > img {
+  width: 200px;
+}
+
+.footer-social ul {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+}
+
+.footer-social ul li {
+  padding-left: 2rem;
 }

@@ -6,6 +6,7 @@ import Logo from './assets/images/Logo.svg'
 
 import './assets/styles/header.css'
 import { Footer } from './views/Footer'
+import { About } from './views/About'
 
 export default function AppRoutes() {
   return (
@@ -41,6 +42,7 @@ export default function AppRoutes() {
             </>
           }
         ></Route>
+        <Route path="/about" element={<About />} />
 
         <Route path="/Services" element={<Services />} />
         <Route
