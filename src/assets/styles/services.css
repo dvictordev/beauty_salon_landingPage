@@ -1,0 +1,46 @@
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.servicesDesc{
+  padding-top: 3rem;
+  text-align: center;
+  color: #0F241D;
+}
+
+.servicesDesc h2{
+  font-size: 2.25rem;
+}
+
+.servicesDesc p{
+  width: 400px;
+  margin-top: 1rem;
+}
+
+.servicesCards{
+  display: flex;
+  margin-top: 3rem;
+}
+
+.card{
+  color: #0F241D;
+  width: 300px;
+  text-align: center;
+  border-bottom: 2px solid #69B99D;
+  background: #F9F9F9;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h2{
+  padding: 1rem 0rem;
+}
+
+.middle{
+  margin: 0 5rem;
+}
+
+
