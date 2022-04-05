@@ -15,14 +15,14 @@
 <h2>instruções para rodar o projeto</h2>
 
 <p>
-  clone o projeto em uma pasta de sua preferência.
+  1- clone o projeto em uma pasta de sua preferência.
 <p/>
 
 <p>
-  rode o comando yarn ou npm i
+  2 -rode o comando yarn ou npm i
 <p/>
 
 <p>
-  após, abra o terminal na pasta onde voce clonou o repositorio e rode o comando yarn dev ou npm start
+  3- após, abra o terminal na pasta onde voce clonou o repositorio e rode o comando yarn dev ou npm start
   e abra o projeto no localhost no seu navegador.
 <p/>
