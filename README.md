@@ -12,7 +12,7 @@
 
 
 
-<h2>instruções para rodar o projeto</h2>3
+<h2>instruções para rodar o projeto</h2>
 
 <p>
   clone o projeto em uma pasta de sua preferência.
