@@ -1,12 +1,13 @@
-import { Routes, Route, BrowserRouter as Router, Link } from 'react-router-dom'
-import { Home } from './views/Home'
-import { Services } from './views/Services'
-import { Contact } from './views/Contact'
-import Logo from './assets/images/Logo.svg'
+import { Routes, Route, BrowserRouter as Router, Link } from "react-router-dom";
+import { Home } from "./views/Home";
+import { Services } from "./views/Services";
+import { Contact } from "./views/Contact";
+import Logo from "./assets/images/Logo.svg";
 
-import './assets/styles/header.css'
-import { Footer } from './views/Footer'
-import { About } from './views/About'
+import "./assets/styles/header.css";
+import { Footer } from "./views/Footer";
+import { About } from "./views/About";
+import { Depositions } from "./views/Depositions";
 
 export default function AppRoutes() {
   return (
@@ -38,23 +39,43 @@ export default function AppRoutes() {
           element={
             <>
               <Home />
-              <Footer />
             </>
           }
         ></Route>
-        <Route path="/about" element={<About />} />
+        <Route
+          path="/Depoimentos"
+          element={
+            <>
+              <Depositions />
+            </>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <>
+              <About />
+            </>
+          }
+        />
 
-        <Route path="/Services" element={<Services />} />
+        <Route
+          path="/Services"
+          element={
+            <>
+              <Services />
+            </>
+          }
+        />
         <Route
           path="/Contact"
           element={
             <>
               <Contact />
-              <Footer />
             </>
           }
         />
       </Routes>
     </Router>
-  )
+  );
 }

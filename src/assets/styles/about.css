@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 4rem 0;
+  padding: 3rem 0;
   padding-right: 7.56rem;
 }
 
@@ -18,23 +18,23 @@
 }
 
 .about-desc p {
-  padding-top: 1.5rem;
+  padding-top: 1.3rem;
   line-height: 24px;
   color: #767676;
 }
 
 .backBox {
-  position: relative;
   background-color: #ccf4e6;
-  max-width: 36.31rem;
-  height: 25.31rem;
-  left: -12.62rem;
+  max-width: 33.56rem;
+  height: 20.75rem;
+  left: -15.62rem;
 }
 
 .backBox img {
-  max-width: 38.56rem;
-  height: 25.75rem;
+  max-width: 33.56rem;
+  height: 20.75rem;
   position: relative;
+  margin-right: 1rem;
   top: 2.12rem;
   left: 9.87rem;
 }

@@ -28,7 +28,8 @@
 
 .card{
   color: #0F241D;
-  width: 300px;
+  width: 270px;
+  /* margin-bottom: .5rem; */
   text-align: center;
   border-bottom: 2px solid #69B99D;
   background: #F9F9F9;
